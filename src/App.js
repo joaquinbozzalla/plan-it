@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Switch, } from "react-router-dom";
+import { ConnectedRouter } from 'connected-react-router';
+import { AuthContextProvider } from './context/auth';
 
-function App() {
+import GardRoute from './components/GuardRoute';
+import Root from './components/Root';
+
+import LoginPage from './pages/LoginPage';
+import HomePage from './pages/HomePage';
+
+function App({ history }) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ConnectedRouter history={history}>
+      <AuthContextProvider>
+        <div>
+          <Root>
+            <Switch>
+              <GardRoute type="public" exact path="/login" component={LoginPage} />
+              <GardRoute type="private" exact path="/" component={HomePage} />
+            </Switch>
+          </Root>
+        </div>
+      </AuthContextProvider>
+    </ConnectedRouter>
   );
 }
+
 
 export default App;

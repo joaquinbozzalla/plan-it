@@ -1,68 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Plan it!
+Esta aplicación web sirve para planificar tu día de la forma más simple posible. Está pensada para el corto plazo, solo podes planificar el día de hoy y de mañana.
 
-## Available Scripts
+Creé esta app al comienzo de la pandemia de covid-19, cuando necesitaba una herramienta para planificar mi día en casa de forma simple, con una UI limpia y solo con las funcionalidades esenciales. La idea es que se utilice por las mañanas para planificar el día, o a la noche para planificar el día siguiente. Además quería una interfaz sencilla que muestre la tarea actual junto a un temporizador que indique la cantidad de tiempo restante.
 
-In the project directory, you can run:
+# Instrucciones
+1. Registrarse.
+2. En la barra superior elegir el día que se quiere planificar. Solo podes ver ayer, hoy y mañana.
+3. Hacer click y arrastrar el mouse sobre el timeline de 24 horas para seleccionar un intervalo del día.
+4. Es obligatorio asignarle un nombre a cada tarea. Además, se puede seleccionar un color, un icono y una categoría.
+5. En el drawer (se abre con el botón izquierdo de la barra superior) se puede acceder a la lista de categorías. Cada categoría tiene un icono y color predeterminado para no tener que asignar uno cada vez que se crea una tarea.
+6. Para cerrar sesión ir a las opciones (botón derecho de la barra superior).
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Mejoras a realizar
+1. Adaptar la UI para utilizarla en teléfonos móviles.
+2. Realizar una app para Android y iOS.
+3. Agregar reproductor de playlists para cada tarea. Ej.: Música de estudio o de entrenamiento.
