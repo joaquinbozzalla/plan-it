@@ -1,4 +1,7 @@
 # Plan it!
+
+https://daily-planner-67a7f.firebaseapp.com/
+
 Esta aplicación web sirve para planificar tu día de la forma más simple posible. Está pensada para el corto plazo, solo podes planificar el día de hoy y de mañana.
 
 Creé esta app al comienzo de la pandemia de covid-19, cuando necesitaba una herramienta para planificar mi día en casa de forma simple, con una UI limpia y solo con las funcionalidades esenciales. La idea es que se utilice por las mañanas para planificar el día, o a la noche para planificar el día siguiente. Además quería una interfaz sencilla que muestre la tarea actual junto a un temporizador que indique la cantidad de tiempo restante.
